@@ -1,20 +1,20 @@
-﻿#include <stdio.h>
+#include <stdio.h>
 #include <locale.h>
 
 void main()
 {
-
+	mashina();
 }
 
-void mashina()
+extern mashina()
 {
 	puts("       ______");
-	puts("      /|_||_\`.__");
+	puts("      /|_||_|.__");
 	puts("     (   _    _  )");
 	puts("      `-(_)--(_)-'");
 }
 
-void korabl()
+extern korabl()
 {
 	puts("              *");
 	puts("              **");
